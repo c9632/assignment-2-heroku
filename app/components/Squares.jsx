@@ -10,7 +10,7 @@ function squares(props){
 return (
 	//<button className="square" onClick={onClick}>{props.item}</button>
 	
-	<div className='square' onClick={props.draw.bind(props,props.id)}>{props.items}</div>
+	<div className='square' onClick={props.print.bind(props,props.id)}>{props.items}</div>
 	);
  }
 

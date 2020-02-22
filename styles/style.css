@@ -1,17 +1,26 @@
 
 
-.hihihi{
-    color: rgba(129, 207, 255, 0.705);
+.fonty{
+    color: rgb(0, 114, 184);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row{
+    display:table;
+    clear:both;
 }
 
 .square {
     background-color: rgb(254, 254, 254);
     width: 100px;
     height:100px;
-    border:1px solid #000;
+    border:1px solid rgb(0, 134, 250);
     display: table-cell;
     text-align: center;
     vertical-align: middle;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.resetBtn{
+    color: red;
 }

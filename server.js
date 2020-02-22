@@ -13,11 +13,7 @@ app.get("/", function(request, response) {
   response.sendFile(__dirname + '/app/index.html');
 });
 
-// listen for requests :) *CHANGE IT BACK WHEN DONE*
-//var listener = app.listen(process.env.PORT, function () {
-//  console.log('Your app is listening on port ' + listener.address().port);
-//});
-
-app.listen(3000, () =>{
-  console.log("The server is ready");
+// listen for requests :) 
+var listener = app.listen(process.env.PORT, function () {
+  console.log('Your app is listening on port ' + listener.address().port);
 });

@@ -1,32 +1,8 @@
-Starter React App on Glitch
-===========================
+In this assignment, Lily and I worked together at least for the first few steps of the assignment. Therefore, I want to clarify any accidental similarity in logic. We worked together on building the squares, switching players and setting the symbols.
 
-This app is a very small scaffold to get you started using React and Webpack.
+I worked independently on resetting, some parts of setting the symbols and validating. In that process, I seeked help from her to understand useEffect and validation, especially on having a multidimensional array. I took her recommendation to initialize an array first and manipulate it within a function, instead of validating within useEffect.
 
-This project relates to video 2 of 5 in the [React Starter Kit](https://glitch.com/react-starter-kit) video series.
+If there is ANY similarity in terms of work, it is pure coincidence.
 
-[![](https://cdn.glitch.com/71d3e262-edb4-456f-8703-48a1247b894f%2Fstarter-react.png?1513174880291)](https://www.youtube.com/watch?v=SxuN26-_fls)
-
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
-
-Your Project
-------------
-
-On the front-end,
-- edit files in `app` folder, it contains all the React stuff
-- drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-
-By [Glitch](https://glitch.com/)
--------------------
-
-Glitch is the friendly commmunity where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-[Find out more](https://glitch.com/about).
-
-\ ゜o゜)ノ
+What I want to learn more from this assignment:
+I want to learn how to change CSS within my Squares.jsx file. At the same time, I have a rough idea on how to set player names, but due to time constraint, I decided to approach the reset button, which to me, I feel more confident and it seems a little bit more doable. 
